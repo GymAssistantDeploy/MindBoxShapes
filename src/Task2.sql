@@ -45,11 +45,11 @@ VALUES
 -- Without categories.
 INSERT INTO Products (Id, ProductName)
 VALUES
-    (6, 'Smartphone'),
-    (7, 'Laptop'),
-    (8, 'T-shirt'),
-    (9, 'Jeans'),
-    (10, 'Novel');
+    (6, 'NoCategory1'),
+    (7, 'NoCategory2'),
+    (8, 'NoCategory3'),
+    (9, 'NoCategory4'),
+    (10, 'NoCategory5');
 
 SELECT p.ProductName, ISNULL(c.CategoryName, 'No Category') AS CategoryName
 FROM Products p
