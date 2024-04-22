@@ -1,5 +1,8 @@
-﻿using MindBox.ShapesLibrary.Guards;
+﻿using System.Runtime.CompilerServices;
+using MindBox.ShapesLibrary.Guards;
 using MindBox.ShapesLibrary.Interfaces;
+
+[assembly: InternalsVisibleTo("Mindbox.ShapesLibrary.Tests")]
 
 namespace MindBox.ShapesLibrary.Shapes;
 
