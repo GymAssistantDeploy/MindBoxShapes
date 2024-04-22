@@ -22,4 +22,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MindBox.ShapesLibrary\MindBox.ShapesLibrary.csproj" />
+    </ItemGroup>
+
 </Project>
